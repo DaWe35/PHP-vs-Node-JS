@@ -7,7 +7,7 @@ Because node is not using system threads for this, but it's own lightweight sche
 
 So, to conclude, for synchronously executing a single request, yes PHP might be faster; but once you have enough requests which exceed the limit set by Apache's configuration and which is affected also by the size of your machine, you should see node.js being faster overall. [Source](https://stackoverflow.com/questions/41928870/nodejs-much-slower-than-php)
 
-This benchmarks are tested in console (with 1 client). That would be better testing with a lot of real requests, so if you have any idea, feel to free to submit a pl.
+These benchmarks are tested in console (with 1 client). That would be better testing with a lot of real requests, so if you have any idea, feel free to submit a pl.
 
 
 | File         | PHP 7.3.10           | Node JS v10.16.0 |
