@@ -1,6 +1,4 @@
 var start = new Date()
-var hrstart = process.hrtime()
-var simulateTime = 5
 
 
 // code
